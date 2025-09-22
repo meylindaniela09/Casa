@@ -1,0 +1,66 @@
+.casa {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cuarto-segundo-nivel {
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/18/21/23/brick-wall-1916752_1280.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventana {
+    background-image: url(https://www.artdecoracionenvidrio.com/wp-content/uploads/2025/01/modelo-ponent-1-300x300.jpg);
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.techo {
+    display: flex;
+    align-items: end;
+}
+
+.pared {
+    width: 100%;
+    height: 25%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.pared div {
+    border: 1 px solid black;
+}
+
+.entrada {
+    background-image: url(https://img.freepik.com/foto-gratis/textura-pared-ladrillos-blancos_1203-1665.jpg?semt=ais_incoming&w=740&q=80);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.puerta {
+    background-image: url(//oakcitycustoms.com/cdn/shop/files/Red_Oak_1200x1200_2cb4d3b7-b287-43df-a575-fb629a6914cd_1200x.png?v=1706894836);
+    width: 75px;
+    height: 120px;
+}
+
+.garage {
+     background-image: url(https://www.foamglas.com/-/media/project/foamglas/public/corporate/foamglascom/images/advice/general/breathability/breathing-wall-example.jpg?w=1000&hash=A43ABF5F15A1A78B28AD83058B79141C);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.porton {
+    width: 90%;
+    height: 90%;
+    background-image: url(https://img.directindustry.es/images_di/photo-m2/67734-8960196.jpg);
+}
+
